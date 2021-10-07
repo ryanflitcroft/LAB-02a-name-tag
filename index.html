@@ -12,17 +12,27 @@
     </style>
 </head>
 <body>
-    <section id="nametag_container">
-        <header class="red_top">
+    <section id="nametag-container">
+        <div class="red_top">
             <h1>HELLO</h1>
-            <p class="name_is">my name is</p>
-        </header>
-        <main class="white_mid">
-            <p class="name">RYAN x <span>&#11088;</span></p>
-        </main>
-        <footer class="red_bottom">
-        </footer>
+            <p class="name-is">my name is</p>
+            <span>&#11088;</span>
+        </div>
+        <div class="white_mid">
+            <p class="name" id="name-of">RYAN x</p>
+        </div>
+        <div class="red_bottom">
+        </div>
 
-    </section>
+        <div id="button-section">
+            <input type="text" id="new-name" minlength="2" maxlength="10">
+            <button id="submit-button">Update!</button>
+        </div>
+
+    </section>  
+<script src="app.js" type="module">
+
+</script>
+
 </body>
 </html>
